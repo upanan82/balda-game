@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Balda Game</title>
+		<script type="text/javascript" src="/view/js/jquery.js"></script>
+		<script type="text/javascript" src="/view/js/script.js"></script>
+		<link rel="stylesheet" href="/view/css/style.css">
+    </head>
+    <body>
+	    <div class="content">
+		    <div class="parent">
+			    <div class="block">
+				    <table>
+					    <tr>
+						    <td class="player">
+							    <h3 id="p1">Player 1 &#160;</h3>
+							    <h3 id="points1">0</h3>
+							    <ul id="words1">
+							    </ul>
+						    </td>
+						    <td class="game">
+							    <input type="text" placeholder="Starting word..." class="input" id="new" maxlength="5">
+							    <input type="submit" value="New Game" onclick="newGame(); return false;" class="but btn2">
+							    <p class="mess"></p><br>
+							    <table class="tdCls">
+								    <tr>
+									    <td><input type="text" id="i1-1" class="inp"></td>
+									    <td><input type="text" id="i1-2" class="inp"></td>
+									    <td><input type="text" id="i1-3" class="inp"></td>
+									    <td><input type="text" id="i1-4" class="inp"></td>
+									    <td><input type="text" id="i1-5" class="inp"></td>
+								    </tr>
+								    <tr>
+									    <td><input type="text" id="i2-1" class="inp"></td>
+									    <td><input type="text" id="i2-2" class="inp"></td>
+									    <td><input type="text" id="i2-3" class="inp"></td>
+									    <td><input type="text" id="i2-4" class="inp"></td>
+									    <td><input type="text" id="i2-5" class="inp"></td>
+								    </tr>
+								    <tr>
+									    <td><input value="B" type="text" id="i3-1" class="inp"></td>
+									    <td><input value="A" type="text" id="i3-2" class="inp"></td>
+									    <td><input value="L" type="text" id="i3-3" class="inp"></td>
+									    <td><input value="D" type="text" id="i3-4" class="inp"></td>
+									    <td><input value="A" type="text" id="i3-5" class="inp"></td>
+								    </tr>
+								    <tr>
+									    <td><input type="text" id="i4-1" class="inp"></td>
+									    <td><input type="text" id="i4-2" class="inp"></td>
+									    <td><input type="text" id="i4-3" class="inp"></td>
+									    <td><input type="text" id="i4-4" class="inp"></td>
+									    <td><input type="text" id="i4-5" class="inp"></td>
+								    </tr>
+								    <tr>
+									    <td><input type="text" id="i5-1" class="inp"></td>
+									    <td><input type="text" id="i5-2" class="inp"></td>
+									    <td><input type="text" id="i5-3" class="inp"></td>
+									    <td><input type="text" id="i5-4" class="inp"></td>
+									    <td><input type="text" id="i5-5" class="inp"></td>
+								    </tr>
+							    </table><br><br>
+							    <input id="ok" type="submit" value="Enter" class="but" onclick="change(); return false;" disabled>
+							    <input type="submit" id="none" value="Cancel" class="but btn2" onclick="clearFunc(false, true); return false;" disabled>
+							    <input type="text" id="newWord" class="input int" readonly>
+						    </td>
+						    <td class="player">
+							    <h3 id="p2">Player 2 &#160;</h3>
+							    <h3 id="points2">0</h3>
+							    <ul id="words2">
+							    </ul>
+						    </td>
+					    </tr>
+				    </table>
+				    <p class="p">by &#160;<a class="a" target='_blank' href="https://github.com/upanan82">upanan82</a>&#160; | &#160;<a class="a" target='_blank' href="https://github.com/sandrasoarer">sandrasoarer</a>&#160; | &#160;<a class="a" target='_blank' href="https://github.com/SW33TY">SW33TY</a></p>
+		  	    </div>
+	  	    </div>
+	    </div>
+    </body>
+</html>
