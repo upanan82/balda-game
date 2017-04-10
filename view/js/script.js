@@ -73,8 +73,8 @@ var str = '',
 			    }
 		    });
 		    if (k == 0) {
-		        if (Number($('#points1').html()) > Number($('#points1').html())) mess('Player 1 WIN!');
-			else if (Number($('#points1').html()) == Number($('#points1').html())) mess('It`s a DRAW!');
+		        if (Number($('#points1').html()) > Number($('#points2').html())) mess('Player 1 WIN!');
+				else if (Number($('#points1').html()) == Number($('#points2').html())) mess('It`s a DRAW!');
 		        else  mess('Player 2 WIN!');
 		    }
 		    if (y != false) $('#' + lastID).val('').prop('readonly', false);
